@@ -1,0 +1,42 @@
+CMake Community Book
+====================
+
+:themiwi: themiwi@users.sourceforge.net
+:AsciiDoc: http://www.methods.co.nz/asciidoc
+:GnuMake: http://www.gnu.org/software/make
+:DocBook: http://www.docbook.org
+:xsltproc: http://www.xmlsoft.org/XSLT/xsltproc2.html
+:fop: http://xmlgraphics.apache.org/fop
+:dblatex: http://dblatex.sourceforge.net
+:w3m: http://w3m.sourceforge.net
+:lynx: http://lynx.isc.org
+
+This is to become a comrehensive book on CMake maintained by the community
+itself.
+
+Contributing
+------------
+* Clone the source and send me ({themiwi}) patches or pull requests.
+* Install recent versions of:
+  - The {AsciiDoc}[AsciiDoc] text processor.
+  - The {GnuMake}[GNU Make] build utility (or something that is sufficiently
+  	compatible).
+  - The {DocBook}[DocBook] DTD and XSL style sheets.
+  - The {xsltproc}[xsltproc] XSLT processor.
+  - For PDF output you need {fop}[FOP] or {dblatex}[dblatex].
+  - For TeX, DVI and PS output you need {dblatex}[dblatex].
+  - For plain text output you need {w3m}[w3m] or {lynx}[lynx].
+* Generate the book through:
++
+.................
+  $ make chunked
+.................
++
+or
++
+.................
+  $ make pdf
+.................
++
+The available formats are 'chunked', 'docbook', 'dvi', 'epub', 'htmlhelp',
+'pdf', 'ps', 'tex', 'text' and  'xhtml'
