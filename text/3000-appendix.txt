@@ -1,0 +1,7 @@
+include::3010-command_reference.txt[]
+include::3020-module_reference.txt[]
+include::3030-variable_reference.txt[]
+
+////////////////////////////////////////////////////////
+vim: ft=asciidoc sw=2 noexpandtab fenc=utf-8
+////////////////////////////////////////////////////////

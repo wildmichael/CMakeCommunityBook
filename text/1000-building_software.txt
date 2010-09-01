@@ -1,0 +1,11 @@
+Building Software with CMake
+============================
+
+include::1010-what_is_cmake.txt[]
+include::1020-prerequisites.txt[]
+include::1030-installing_cmake.txt[]
+include::1040-running_cmake.txt[]
+
+////////////////////////////////////////////////////////
+vim: ft=asciidoc sw=2 noexpandtab fenc=utf-8
+////////////////////////////////////////////////////////

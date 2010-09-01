@@ -1,0 +1,21 @@
+Creating Build Systems with CMake
+=================================
+
+include::2010-simple_example.txt[]
+include::2020-directories_and_files.txt[]
+include::2030-variables.txt[]
+include::2040-cache.txt[]
+include::2050-configurations.txt[]
+include::2060-generators.txt[]
+include::2070-cmake_syntax.txt[]
+include::2080-important_commands.txt[]
+include::2090-flow_control.txt[]
+include::2100-creating_executables.txt[]
+include::2110-creating_libraries.txt[]
+include::2120-linking.txt[]
+include::2130-finding_things.txt[]
+include::2140-installing.txt[]
+
+////////////////////////////////////////////////////////
+vim: ft=asciidoc sw=2 noexpandtab fenc=utf-8
+////////////////////////////////////////////////////////
