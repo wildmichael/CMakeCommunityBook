@@ -18,14 +18,17 @@ Contributing
 ------------
 * Clone the source and send me ({themiwi}) patches or pull requests.
 * Install recent versions of:
-  - The {AsciiDoc}[AsciiDoc] text processor.
-  - The {GnuMake}[GNU Make] build utility (or something that is sufficiently
-  	compatible).
-  - The {DocBook}[DocBook] DTD and XSL style sheets.
-  - The {xsltproc}[xsltproc] XSLT processor.
-  - For PDF output you need {fop}[FOP] or {dblatex}[dblatex].
-  - For TeX, DVI and PS output you need {dblatex}[dblatex].
-  - For plain text output you need {w3m}[w3m] or {lynx}[lynx].
+  - The http://www.methods.co.nz/asciidoc[AsciiDoc] text processor.
+  - The http://www.gnu.org/software/make[GNU Make] build utility (or something
+    that is sufficiently compatible).
+  - The http://www.docbook.org[DocBook] DTD and XSL style sheets.
+  - The http://www.xmlsoft.org/XSLT/xsltproc2.html[xsltproc] XSLT processor.
+  - For PDF output you need http://xmlgraphics.apache.org/fop[FOP] or
+    http://dblatex.sourceforge.net[dblatex].
+  - For TeX, DVI and PS output you need
+    http://dblatex.sourceforge.net[dblatex].
+  - For plain text output you need http://w3m.sourceforge.net[w3m] or
+    http://lynx.isc.org[lynx].
 * Generate the book through:
 +
 .................
