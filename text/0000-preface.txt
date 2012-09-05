@@ -1,6 +1,18 @@
 Preface
 =======
-TODO
+Building software is a tough problem. Period. Building software across a
+multitude of platforms even more so. Many programming environment come with
+their own build systems which usually work out of the box and are well
+integrated into the development tools. Examples of such environments are
+Microsoft's Visual Studio (R), Apple's Xcode (R). If it isn't a problem to be
+bound to the specific environment and plans to build the software only for the
+platforms target by the development environment, they are often a good
+choice for most projects.
+
+Problems start to crop up if many different development environments and
+platforms have to be supported by the same code base. Maintaining multiple
+build systems in a single code base becomes a nightmare fairly quickly. It is
+nearly impossible to ensure consistency across all the various build systems.
 
 ////////////////////////////////////////////////////////
 vim: ft=asciidoc sw=2 noexpandtab fenc=utf-8
